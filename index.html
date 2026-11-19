@@ -5,18 +5,18 @@
 
 <style>
 body {
-    background: #111;
+    background: #12121f;
     color: white;
     font-family: Arial;
     margin: 0;
 }
 
 header {
-    background: #e94560;
+    background: #9f56c9;
     padding: 15px 30px;
 }
 
-h1, h2 { color: #e94560; }
+h1, h2 { color: #ea83ff; }
 
 header h1 { color: white; }
 
@@ -41,20 +41,34 @@ img {
     width: 100%;
     max-width: 550px;
 }
-a {
+a{
     color: white;
-    background: #e94560;
+    background: #9f56c9;
     padding: 12px;
     margin: 8px;
     display: inline-block;
     text-decoration: none;
     border-radius: 5px;
 }
-footer {
-    text-align: center;
-    color: gray;
-    padding: 20px;
+table{
+    width: 100%;
+    border-collapse: collapse;
 }
+th{
+    background-color: #ea83ff;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #444;
+}
+td{
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: left;
+}
+
+
+
 </style>
 </head>
 
@@ -65,8 +79,8 @@ footer {
 </header>
 
 <div class="box">
-<h2>Co si dnes pustíš?</h2>
-<p>Vyber si film nebo seriál.</p>
+<h2>Co si dnes pustíte?</h2>
+<p>Vyberte si film nebo seriál.</p>
 
 <div class="karta">
 <h2>Film</h2>
@@ -78,23 +92,41 @@ footer {
 </div>
 
 <div class="box">
-<h2>Vyber si žánr:</h2>
 <table>
-<t>Akční</li>
-<li>Romantický</li>
-<li>Horor</li>
-<li>Komedie</li>
+<tr>
+    <th colspan="2">Žánry:</th>
+    
+</tr>
+<tr>
+    <td>Akce</td>
+    <td>Obsah je plný paměti, soubojů, honiček a dobrodružství.</td>
+</tr>
+<tr>
+    <td>Sci-Fi</td>
+    <td>Obsah je o budoucnosti, vesmíru, nadpřirozenu a technologiích. </td>
+</tr>
+<tr>
+    <td>Drama</td>
+    <td>Obsah je zaměřený na životní situace, emoce, vztahy.</td>
+</tr>
+<tr>
+    <td>Komedie</td>
+    <td>Obsah je uprave tak, aby pobavil diváka.</td>
+</tr>
 </table>
 </div>
 
 <div class="box">
-<img src="images/první strana AAP.png" alt="Filmy">
+<img src="images/istockphoto-641333522-612x612.jpg" alt="tlacitko">
 </div>
 
 <div class="box">
 <h2>Filmy a seriály</h2>
 <a href="Fast%26Furious.html">Fast & Furious</a>
 <a href="Howtoloseguyin10days.html">How to Lose a Guy in 10 Days</a>
+<a href="MazeRunner.html">Maze Runner</a>
+<a href="StrangerThings.html">Stranger Things</a>
+<a href="TheRookie.html">The Rookie</a>
 </div>
 
 </body>
