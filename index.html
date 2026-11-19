@@ -1,32 +1,101 @@
 <html>
 <head>
-<title>Page Title</title>
-<link rel="shortcut icon" href="/images/favicon-96x96.png">
+<meta charset="UTF-8">
+<title>Movie Button Generator</title>
+
+<style>
+body {
+    background: #111;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background: #e94560;
+    padding: 15px 30px;
+}
+
+h1, h2 { color: #e94560; }
+
+header h1 { color: white; }
+
+.box {
+    background: #1f1f1f;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 650px;
+    border-radius: 8px;
+}
+
+.karta {
+    display: inline-block;
+    background: #292929;
+    padding: 20px;
+    margin: 10px;
+    width: 180px;
+    border-radius: 8px;
+}
+
+img {
+    width: 100%;
+    max-width: 550px;
+}
+a {
+    color: white;
+    background: #e94560;
+    padding: 12px;
+    margin: 8px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    color: gray;
+    padding: 20px;
+}
+</style>
 </head>
+
 <body>
 
-<h1 style="color: rgb(206, 7, 7);">Movie button generator</h1>
-<p>Vyberte si, co chcete dnes sledovat.</p>
-<ol>
-  <li>Film</li>
-  <li>Serial</li>
-</ol>
-<p>Vyberte si žánr:</p>
-<ul>
-  <li>Akční</li>
-  <li>Romantický</li>
-  <li>Horor</li>
-  <li>Komedie</li>
-</ul>
-<img src="/images/první strana AAP.png" alt="Obrazek">
 <header>
-  <nav>
-    <ul>
-      <li><a href="Fast%26Furious.html">Fast & Furious</a></li>
-      <li><a href="Howtoloseguyin10days.html">How to lose a guy in 10 days</a></li>
-    </ul>
-  </nav>
+<h1>Movie Button Generator</h1>
 </header>
-</body>
 
+<div class="box">
+<h2>Co si dnes pustíš?</h2>
+<p>Vyber si film nebo seriál.</p>
+
+<div class="karta">
+<h2>Film</h2>
+</div>
+
+<div class="karta">
+<h2>Seriál</h2>
+</div>
+</div>
+
+<div class="box">
+<h2>Vyber si žánr:</h2>
+<table>
+<t>Akční</li>
+<li>Romantický</li>
+<li>Horor</li>
+<li>Komedie</li>
+</table>
+</div>
+
+<div class="box">
+<img src="images/první strana AAP.png" alt="Filmy">
+</div>
+
+<div class="box">
+<h2>Filmy a seriály</h2>
+<a href="Fast%26Furious.html">Fast & Furious</a>
+<a href="Howtoloseguyin10days.html">How to Lose a Guy in 10 Days</a>
+</div>
+
+</body>
 </html>
